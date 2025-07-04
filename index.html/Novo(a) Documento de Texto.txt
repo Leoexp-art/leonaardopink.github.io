@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja da Nicolly ✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Loja da Nicolly ✨</h1>
+    <p>Produtos com amor e estilo 💖</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 1">
+      <h2>Produto 1</h2>
+      <p>R$ 49,90</p>
+      <a href="https://wa.me/5521999999999?text=Oi!%20Quero%20comprar%20o%20Produto%201%20da%20sua%20loja." target="_blank">
+        <button>Comprar</button>
+      </a>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/200" alt="Produto 2">
+      <h2>Produto 2</h2>
+      <p>R$ 59,90</p>
+      <a href="https://wa.me/5521999999999?text=Oi!%20Tenho%20interesse%20no%20Produto%202%20da%20sua%20loja." target="_blank">
+        <button>Comprar</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Loja da Nicolly. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
