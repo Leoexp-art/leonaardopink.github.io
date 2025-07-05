@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+    color: #002b50;
+}
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.produtos {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.produto {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.preco {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #004080;
+}
+.botao {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
